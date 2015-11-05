@@ -1,7 +1,3 @@
-
-require 'pry'
-
-def meal_choice(meal= "meat"):
-  choice = #{meal}
-  binding.pry
+def meal_choice(choice = "meat")
+  return choice
 end
