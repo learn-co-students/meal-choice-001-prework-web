@@ -1,2 +1,5 @@
-# Define a method meal_choice that returns the meal_choice that was
-# passed into it and defaults to meat.
+#meal_choice
+def meal_choice(meal_choice = "meat")
+  puts "meal_choice"
+  return meal_choice
+end
