@@ -1,3 +1,4 @@
+require 'pry'
 describe '#meal_choice' do
   it 'should default to meat' do
     expect(meal_choice).to eq("meat")
@@ -5,5 +6,6 @@ describe '#meal_choice' do
 
   it 'should allow you to set a meal' do
     expect(meal_choice("vegan")).to eq("vegan")
-  end
+    binding.pry
+end
 end
